@@ -1,0 +1,9 @@
+.title{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 94px;
+    line-height: 120%;
+    color: var(--white);
+    position: relative;
+    z-index: 2;
+  }

@@ -146,7 +146,7 @@ textarea:not([rows]) {
 .wrapper > * {
     grid-column: content;
   }
-  /* .popout {
+  .popout {
     grid-column: popout;
   }
   .feature {
@@ -154,4 +154,19 @@ textarea:not([rows]) {
   }
   .full {
     grid-column: full;
-  } */
+    height: 100dvh;
+    position: relative;
+  }
+
+  .full::after{
+    content: "";
+    display: block;
+    position: absolute;
+    inset: 0;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(to right, #f7f0f012 1px, transparent 1px),
+      linear-gradient(to bottom, #80808012 1px, transparent 1px);
+    background-size: 24px 24px;
+  }
+

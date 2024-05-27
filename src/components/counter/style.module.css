@@ -1,0 +1,28 @@
+.wrapper{
+    --tw-space-x-reverse: 0;
+    --tw-text-opacity: 1;
+    --tw-bg-opacity: 1;
+    display: flex;
+    overflow: hidden;
+    background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+    padding-inline: 10px;
+    line-height: 1;
+    color: rgb(17 24 39 / var(--tw-text-opacity));
+    border-radius: 10px;
+}
+
+.digits__box{
+    position: relative;
+    width: 1ch;
+    font-family: var(--font-family);
+    font-weight: 400;
+    color: var(--accent-red);
+}
+
+.number{
+    position: absolute;
+    inset: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
